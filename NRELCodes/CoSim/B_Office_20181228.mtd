@@ -1,0 +1,2754 @@
+
+ Meters for 34,DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BASEMENT ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BASEMENT ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORE_BOTTOM ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CORE_BOTTOM ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORE_MID ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CORE_MID ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORE_TOP ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CORE_TOP ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 582,DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 619,DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 632,DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 645,DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 658,BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BASEMENT ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BASEMENT ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 671,CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORE_BOTTOM ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CORE_BOTTOM ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 684,CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORE_MID ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CORE_MID ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 697,CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORE_TOP ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CORE_TOP ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 710,PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 723,PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 736,PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 749,PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 762,PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 775,PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 788,PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 801,PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 814,PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 827,PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 840,PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 853,PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 1716,300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+  OnMeter=General:WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 1765,300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 1814,300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 1815,300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater On Cycle Parasitic Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=WaterSystems:Gas [J]
+  OnMeter=General:WaterSystems:Gas [J]
+
+ Meters for 1816,300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 1865,300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 2164,BASEMENT ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BASEMENT ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BASEMENT ZN [J]
+
+ Meters for 2225,BASEMENT ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BASEMENT ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BASEMENT ZN [J]
+
+ Meters for 2255,CORE_BOTTOM ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORE_BOTTOM ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CORE_BOTTOM ZN [J]
+
+ Meters for 2280,CORE_BOTTOM ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORE_BOTTOM ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CORE_BOTTOM ZN [J]
+
+ Meters for 2298,CORE_MID ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORE_MID ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CORE_MID ZN [J]
+
+ Meters for 2323,CORE_MID ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORE_MID ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CORE_MID ZN [J]
+
+ Meters for 2341,CORE_TOP ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORE_TOP ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CORE_TOP ZN [J]
+
+ Meters for 2366,CORE_TOP ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORE_TOP ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CORE_TOP ZN [J]
+
+ Meters for 2384,DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+
+ Meters for 2409,DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J]
+
+ Meters for 2427,DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+
+ Meters for 2452,DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J]
+
+ Meters for 2470,DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J]
+
+ Meters for 2495,DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J]
+
+ Meters for 2513,DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+
+ Meters for 2538,DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J]
+
+ Meters for 2556,GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J]
+
+ Meters for 2581,GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J]
+
+ Meters for 2599,MIDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J]
+
+ Meters for 2624,MIDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J]
+
+ Meters for 2642,PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+
+ Meters for 2667,PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J]
+
+ Meters for 2685,PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+
+ Meters for 2710,PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J]
+
+ Meters for 2728,PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+
+ Meters for 2753,PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J]
+
+ Meters for 2771,PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+
+ Meters for 2796,PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J]
+
+ Meters for 2814,PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J]
+
+ Meters for 2839,PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J]
+
+ Meters for 2857,PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J]
+
+ Meters for 2882,PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J]
+
+ Meters for 2900,PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J]
+
+ Meters for 2925,PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J]
+
+ Meters for 2943,PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Heating Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J]
+
+ Meters for 2968,PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Cooling Energy [J] * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J]
+
+ Meters for 2986,PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+
+ Meters for 3011,PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J]
+
+ Meters for 3029,PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+
+ Meters for 3054,PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J]
+
+ Meters for 3072,PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+
+ Meters for 3097,PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J]
+
+ Meters for 3115,PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+
+ Meters for 3140,PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J]
+
+ Meters for 3158,TOPFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J]
+
+ Meters for 3183,TOPFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J]
+
+ Meters for 3227,CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 3228,CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 3229,CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 3266,CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 3267,CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 3268,CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 3269,CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=WaterSystems:Water [m3]
+  OnMeter=General:WaterSystems:Water [m3]
+
+ Meters for 3270,CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=WaterSystems:MainsWater [m3]
+  OnMeter=General:WaterSystems:MainsWater [m3]
+
+ Meters for 3271,CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=WaterSystems:EnergyTransfer [J]
+  OnMeter=General:WaterSystems:EnergyTransfer [J]
+
+ Meters for 3272,WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 3273,WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 3274,WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:Plant [J]
+  OnMeter=WaterSystems:PlantLoopHeatingDemand [J]
+
+ Meters for 3275,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 3312,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 3349,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 3389,BASEMENT ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3414,BASEMENT ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3440,CORE_BOTTOM ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3441,CORE_BOTTOM ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3443,CORE_MID ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3444,CORE_MID ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3446,CORE_TOP ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3447,CORE_TOP ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3449,PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3450,PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3452,PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3453,PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3455,PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3456,PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3458,PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3459,PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3461,PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3462,PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3464,PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3465,PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3467,PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3468,PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3470,PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3471,PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3473,PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3474,PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3476,PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3477,PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3479,PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3480,PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3482,PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3483,PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3485,CAV_BAS MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3486,CAV_BAS MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3488,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3489,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3491,VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3492,VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3494,VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3495,VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3497,VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3498,VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3500,CAV_BAS CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3513,CAV_BAS CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3551,VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3552,VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3554,VAV_MID WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3555,VAV_MID WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3557,VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3558,VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3625,CAV_BAS FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3663,VAV_BOT WITH REHEAT FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3665,VAV_MID WITH REHEAT FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3667,VAV_TOP WITH REHEAT FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3669,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3671,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3673,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3675,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=General:Fans:Electricity [J]
+
+ Meters for 3676,FUEL EQUIPMENT 1:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 3701,FUEL EQUIPMENT 2:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 3702,NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 3703,OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=ExteriorLights:Electricity [J]
+  OnMeter=General:ExteriorLights:Electricity [J]
+
+ Meters for 3720,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 3733,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3734,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3735,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 3736,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3737,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3738,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 3739,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3740,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3741,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Cooling:Electricity [J]
+
+ Meters for 3742,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=CoolingCoils:EnergyTransfer [J]
+
+ Meters for 3743,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopCoolingDemand:Facility [J]
+  OnMeter=PlantLoopCoolingDemand:HVAC [J]
+  OnMeter=CoolingCoils:PlantLoopCoolingDemand [J]
+
+ Meters for 3744,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3757,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3758,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3759,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3760,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3761,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3762,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3763,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3764,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3765,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3766,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3767,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy [J]
+  OnMeter=PlantLoopHeatingDemand:Facility [J]
+  OnMeter=PlantLoopHeatingDemand:HVAC [J]
+  OnMeter=HeatingCoils:PlantLoopHeatingDemand [J]
+
+ Meters for 3784,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3786,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3787,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3789,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3790,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3792,DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3793,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3795,DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3796,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:HVAC [J]
+  OnMeter=HeatingCoils:EnergyTransfer [J]
+
+ Meters for 3798,DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3799,DATACENTER_BASEMENT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3800,DATACENTER_BOT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3801,DATACENTER_MID_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3802,DATACENTER_TOP_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Heating:Electricity [J]
+
+ Meters for 3803,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:HVAC [m3]
+  OnMeter=Humidifier:Water [m3]
+
+ Meters for 3828,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:HVAC [m3]
+  OnMeter=Humidifier:MainsWater [m3]
+
+ Meters for 3853,DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:HVAC [J]
+  OnMeter=Humidifier:Electricity [J]
+
+ Meters for 3867,90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cooling:Electricity [J]
+  OnMeter=General:Cooling:Electricity [J]
+
+ Meters for 3892,90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Evaporator Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Chillers:EnergyTransfer [J]
+
+ Meters for 3905,90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=HeatRejection:EnergyTransfer [J]
+
+ Meters for 3918,CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=HeatRejection:Electricity [J]
+  OnMeter=General:HeatRejection:Electricity [J]
+
+ Meters for 3943,HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Fan Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=HeatRejection:Electricity [J]
+  OnMeter=General:HeatRejection:Electricity [J]
+
+ Meters for 3944,CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=HeatRejection:Water [m3]
+
+ Meters for 3957,CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=HeatRejection:MainsWater [m3]
+
+ Meters for 3970,HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Water Volume [m3]
+  OnMeter=Water:Facility [m3]
+  OnMeter=Water:Plant [m3]
+  OnMeter=HeatRejection:Water [m3]
+
+ Meters for 3971,HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Mains Water Volume [m3]
+  OnMeter=MainsWater:Facility [m3]
+  OnMeter=MainsWater:Plant [m3]
+  OnMeter=HeatRejection:MainsWater [m3]
+
+ Meters for 3973,HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Boilers:EnergyTransfer [J]
+
+ Meters for 3987,HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=Heating:Gas [J]
+  OnMeter=General:Heating:Gas [J]
+
+ Meters for 4012,HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=Boiler Parasitic:Heating:Electricity [J]
+
+ Meters for 4026,HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Plant [J]
+  OnMeter=Boilers:EnergyTransfer [J]
+
+ Meters for 4028,HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy [J]
+  OnMeter=Gas:Facility [J]
+  OnMeter=Gas:Plant [J]
+  OnMeter=Heating:Gas [J]
+  OnMeter=General:Heating:Gas [J]
+
+ Meters for 4029,HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Heating:Electricity [J]
+  OnMeter=Boiler Parasitic:Heating:Electricity [J]
+
+ Meters for 4030,CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 4043,HOT WATER LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 4044,CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 4045,CONDENSER WATER LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 4046,HEAT PUMP LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 4047,SERVICE WATER LOOP PUMP:Pump Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Pumps:Electricity [J]
+
+ Meters for 4191,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 4216,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 4217,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CAV_BAS FAN:Fan Electric Energy
+  VAV_BOT WITH REHEAT FAN:Fan Electric Energy
+  VAV_MID WITH REHEAT FAN:Fan Electric Energy
+  VAV_TOP WITH REHEAT FAN:Fan Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  FUEL EQUIPMENT 1:Exterior Lights Electric Energy
+  FUEL EQUIPMENT 2:Exterior Lights Electric Energy
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_BOT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_MID_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_TOP_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Electric Energy
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Electric Energy
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Fan Electric Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP PUMP:Pump Electric Energy
+  HEAT PUMP LOOP PUMP:Pump Electric Energy
+  SERVICE WATER LOOP PUMP:Pump Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BASEMENT ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BASEMENT ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:CORE_BOTTOM ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:CORE_BOTTOM ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:CORE_MID ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:CORE_MID ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:CORE_TOP ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:CORE_TOP ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DATACENTER_BOT_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  DATACENTER_BOT_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DATACENTER_MID_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DATACENTER_MID_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:DATACENTER_TOP_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DATACENTER_TOP_ZN_6 ZN OFFICE OFFICELARGE DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN OFFICE OFFICELARGE MAIN DATA CENTER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BASEMENT ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BASEMENT ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:CORE_BOTTOM ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CORE_BOTTOM ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:CORE_MID ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CORE_MID ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:CORE_TOP ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CORE_TOP ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_2 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_BOT_ZN_4 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_MID_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_2 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_MID_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_MID_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_MID_ZN_4 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_MID_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_1 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_2 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_2 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_3 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:PERIMETER_TOP_ZN_4 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_4 ZN OFFICE WHOLEBUILDING - LG OFFICE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=PlantLoopHeatingDemand:Facility [J], ResourceType=PlantLoopHeatingDemand, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy
+  BASEMENT ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_BOTTOM ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_MID ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_TOP ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CAV_BAS MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopHeatingDemand:Plant [J], ResourceType=PlantLoopHeatingDemand, Group=Plant, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy
+
+ For Meter=WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Source Side Heat Transfer Energy
+  WATER USE CONNECTIONS 1:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 2:Water Use Connections Plant Hot Water Energy
+  WATER USE CONNECTIONS 3:Water Use Connections Plant Hot Water Energy
+
+ For Meter=General:WaterSystems:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Source Side Heat Transfer Energy
+
+ For Meter=Gas:Facility [J], ResourceType=Gas, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=Gas:Plant [J], ResourceType=Gas, Group=Plant, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+
+ For Meter=General:WaterSystems:Gas [J], ResourceType=Gas, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Off Cycle Parasitic Gas Energy
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater On Cycle Parasitic Gas Energy
+
+ For Meter=Water:Facility [m3], ResourceType=Water, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Water Volume
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Water Volume
+
+ For Meter=Water:Plant [m3], ResourceType=Water, Group=Plant, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Water Volume
+
+ For Meter=WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+
+ For Meter=General:WaterSystems:Water [m3], ResourceType=Water, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Total Volume
+
+ For Meter=MainsWater:Facility [m3], ResourceType=MainsWater, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Mains Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Mains Water Volume
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=MainsWater:Plant [m3], ResourceType=MainsWater, Group=Plant, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Mains Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Mains Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+
+ For Meter=General:WaterSystems:MainsWater [m3], ResourceType=MainsWater, EndUse=WaterSystems, contents are:
+  300.0GAL NATURAL GAS WATER HEATER - 300KBTU/HR 0.806 THERM EFF:Water Heater Mains Water Volume
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Mains Water Volume
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Heating Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Cooling Energy
+  CORE_MID ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_MID ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN:Zone Air System Sensible Heating Energy
+  CORE_TOP ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  BASEMENT ZN RHT COIL:Heating Coil Heating Energy
+  CORE_BOTTOM ZN RHT COIL:Heating Coil Heating Energy
+  CORE_MID ZN RHT COIL:Heating Coil Heating Energy
+  CORE_TOP ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  CAV_BAS MAIN HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Heating Energy
+  VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  CAV_BAS CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_MID WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Heating Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Cooling Energy
+  CORE_MID ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_MID ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN:Zone Air System Sensible Heating Energy
+  CORE_TOP ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BASEMENT ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Heating Energy
+  CORE_MID ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BASEMENT ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Cooling Energy
+  CORE_MID ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_TOP ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BASEMENT ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CORE_BOTTOM ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CORE_BOTTOM ZN:Zone Air System Sensible Heating Energy
+  CORE_BOTTOM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CORE_BOTTOM ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CORE_BOTTOM ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CORE_BOTTOM ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CORE_BOTTOM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CORE_MID ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CORE_MID ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  CORE_MID ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:CORE_MID ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CORE_MID ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:CORE_MID ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CORE_MID ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:CORE_TOP ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CORE_TOP ZN:Zone Air System Sensible Heating Energy
+  CORE_TOP ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CORE_TOP ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CORE_TOP ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CORE_TOP ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CORE_TOP ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DATACENTER_BASEMENT_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DATACENTER_BOT_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DATACENTER_BOT_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:DATACENTER_MID_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DATACENTER_MID_ZN_6 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Heating Energy
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DATACENTER_TOP_ZN_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DATACENTER_TOP_ZN_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GROUNDFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GROUNDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:MIDFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MIDFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_2 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_BOT_ZN_4 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_BOT_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_MID_ZN_1 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_2 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_MID_ZN_2 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_MID_ZN_3 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Heating Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_MID_ZN_4 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_MID_ZN_4 ZN:Zone Air System Sensible Cooling Energy * 10  (Zone Multiplier = 10, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_2 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_2 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_3 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Heating Energy
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:PERIMETER_TOP_ZN_4 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  PERIMETER_TOP_ZN_4 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:TOPFLOOR_PLENUM ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  TOPFLOOR_PLENUM ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Plant [J], ResourceType=EnergyTransfer, Group=Plant, contents are:
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+
+ For Meter=WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+
+ For Meter=General:WaterSystems:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=WaterSystems, contents are:
+  CORE_BOTTOM SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_MID SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+  CORE_TOP SERVICE WATER USE 0.58GAL/MIN:Water Use Equipment Heating Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=EnergyTransfer:HVAC [J], ResourceType=EnergyTransfer, Group=HVAC, contents are:
+  BASEMENT ZN RHT COIL:Heating Coil Heating Energy
+  CORE_BOTTOM ZN RHT COIL:Heating Coil Heating Energy
+  CORE_MID ZN RHT COIL:Heating Coil Heating Energy
+  CORE_TOP ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  CAV_BAS MAIN HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Heating Energy
+  VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  CAV_BAS CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_MID WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+
+ For Meter=HeatingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatingCoils, contents are:
+  BASEMENT ZN RHT COIL:Heating Coil Heating Energy
+  CORE_BOTTOM ZN RHT COIL:Heating Coil Heating Energy
+  CORE_MID ZN RHT COIL:Heating Coil Heating Energy
+  CORE_TOP ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Heating Energy
+  PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Heating Energy
+  CAV_BAS MAIN HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Heating Energy
+  VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Heating Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Heating Energy
+
+ For Meter=PlantLoopHeatingDemand:HVAC [J], ResourceType=PlantLoopHeatingDemand, Group=HVAC, contents are:
+  BASEMENT ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_BOTTOM ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_MID ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_TOP ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CAV_BAS MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=HeatingCoils:PlantLoopHeatingDemand [J], ResourceType=PlantLoopHeatingDemand, EndUse=HeatingCoils, contents are:
+  BASEMENT ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_BOTTOM ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_MID ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CORE_TOP ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_BOT_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_MID_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_1 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_2 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_3 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  PERIMETER_TOP_ZN_4 ZN RHT COIL:Heating Coil Source Side Heat Transfer Energy
+  CAV_BAS MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_BOT WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_MID WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  VAV_TOP WITH REHEAT MAIN HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Source Side Heat Transfer Energy
+
+ For Meter=CoolingCoils:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=CoolingCoils, contents are:
+  CAV_BAS CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_MID WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Total Cooling Energy
+
+ For Meter=PlantLoopCoolingDemand:Facility [J], ResourceType=PlantLoopCoolingDemand, contents are:
+  CAV_BAS CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_MID WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=PlantLoopCoolingDemand:HVAC [J], ResourceType=PlantLoopCoolingDemand, Group=HVAC, contents are:
+  CAV_BAS CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_MID WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=CoolingCoils:PlantLoopCoolingDemand [J], ResourceType=PlantLoopCoolingDemand, EndUse=CoolingCoils, contents are:
+  CAV_BAS CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_BOT WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_MID WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  VAV_TOP WITH REHEAT CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Source Side Heat Transfer Energy
+
+ For Meter=Electricity:HVAC [J], ResourceType=Electricity, Group=HVAC, contents are:
+  CAV_BAS FAN:Fan Electric Energy
+  VAV_BOT WITH REHEAT FAN:Fan Electric Energy
+  VAV_MID WITH REHEAT FAN:Fan Electric Energy
+  VAV_TOP WITH REHEAT FAN:Fan Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_BOT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_MID_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_TOP_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Electric Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  CAV_BAS FAN:Fan Electric Energy
+  VAV_BOT WITH REHEAT FAN:Fan Electric Energy
+  VAV_MID WITH REHEAT FAN:Fan Electric Energy
+  VAV_TOP WITH REHEAT FAN:Fan Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+
+ For Meter=General:Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  CAV_BAS FAN:Fan Electric Energy
+  VAV_BOT WITH REHEAT FAN:Fan Electric Energy
+  VAV_MID WITH REHEAT FAN:Fan Electric Energy
+  VAV_TOP WITH REHEAT FAN:Fan Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER FAN:Fan Electric Energy
+
+ For Meter=ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  FUEL EQUIPMENT 1:Exterior Lights Electric Energy
+  FUEL EQUIPMENT 2:Exterior Lights Electric Energy
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy
+
+ For Meter=General:ExteriorLights:Electricity [J], ResourceType=Electricity, EndUse=ExteriorLights, contents are:
+  FUEL EQUIPMENT 1:Exterior Lights Electric Energy
+  FUEL EQUIPMENT 2:Exterior Lights Electric Energy
+  NONDIMMING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy
+  OCC SENSING EXTERIOR LIGHTS DEF:Exterior Lights Electric Energy
+
+ For Meter=Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP CLG COIL:Cooling Coil Electric Energy
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Electric Energy
+
+ For Meter=Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER WATER-TO-AIR HP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BOT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_MID_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_TOP_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC BACKUP HTG COIL:Heating Coil Electric Energy
+  DATACENTER_BASEMENT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_BOT_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_MID_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  DATACENTER_TOP_ZN_6 ZN UNITARY HP:Unitary System Heating Ancillary Electric Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+
+ For Meter=Water:HVAC [m3], ResourceType=Water, Group=HVAC, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Water Volume
+
+ For Meter=Humidifier:Water [m3], ResourceType=Water, EndUse=Humidifier, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Water Volume
+
+ For Meter=MainsWater:HVAC [m3], ResourceType=MainsWater, Group=HVAC, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Mains Water Volume
+
+ For Meter=Humidifier:MainsWater [m3], ResourceType=MainsWater, EndUse=Humidifier, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Mains Water Volume
+
+ For Meter=Humidifier:Electricity [J], ResourceType=Electricity, EndUse=Humidifier, contents are:
+  DATACENTER_BASEMENT_ZN_6 ZN PSZ-AC DATA CENTER ELECTRIC STEAM HUMIDIFIER:Humidifier Electric Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Electric Energy
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Fan Electric Energy
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP PUMP:Pump Electric Energy
+  HEAT PUMP LOOP PUMP:Pump Electric Energy
+  SERVICE WATER LOOP PUMP:Pump Electric Energy
+
+ For Meter=General:Cooling:Electricity [J], ResourceType=Electricity, EndUse=Cooling, contents are:
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Electric Energy
+
+ For Meter=Chillers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Chillers, contents are:
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Evaporator Cooling Energy
+
+ For Meter=HeatRejection:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=HeatRejection, contents are:
+  90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Condenser Heat Transfer Energy
+
+ For Meter=HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Fan Electric Energy
+
+ For Meter=General:HeatRejection:Electricity [J], ResourceType=Electricity, EndUse=HeatRejection, contents are:
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Fan Electric Energy
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Fan Electric Energy
+
+ For Meter=HeatRejection:Water [m3], ResourceType=Water, EndUse=HeatRejection, contents are:
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Water Volume
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Water Volume
+
+ For Meter=HeatRejection:MainsWater [m3], ResourceType=MainsWater, EndUse=HeatRejection, contents are:
+  CENTRIFUGAL FAN CYCLING OPEN COOLING TOWER 38.2 GPM/HP:Cooling Tower Make Up Mains Water Volume
+  HEAT PUMP LOOP CENTRAL TOWER 20.0 GPM/HP:Cooling Tower Make Up Mains Water Volume
+
+ For Meter=Boilers:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Boilers, contents are:
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Heating Energy
+
+ For Meter=Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=General:Heating:Gas [J], ResourceType=Gas, EndUse=Heating, contents are:
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Gas Energy
+
+ For Meter=Boiler Parasitic:Heating:Electricity [J], ResourceType=Electricity, EndUse=Heating, contents are:
+  HEAT PUMP LOOP SUP BOILER 1409KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+  HOT WATER LOOP BOILER 8806KBTU/HR 0.8 THERMAL EFF:Boiler Ancillary Electric Energy
+
+ For Meter=Pumps:Electricity [J], ResourceType=Electricity, EndUse=Pumps, contents are:
+  CHILLED WATER LOOP SECONDARY PUMP:Pump Electric Energy
+  HOT WATER LOOP PUMP:Pump Electric Energy
+  CHILLED WATER LOOP PRIMARY PUMP:Pump Electric Energy
+  CONDENSER WATER LOOP PUMP:Pump Electric Energy
+  HEAT PUMP LOOP PUMP:Pump Electric Energy
+  SERVICE WATER LOOP PUMP:Pump Electric Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
