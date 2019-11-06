@@ -52,5 +52,13 @@ for i = 1 : num_zone
     end
 end
 
-CoSim_Input = ws2struct();
+% CoSim_Input = ws2struct();
+
+CoSim_Input.a_0 = a_0;
+CoSim_Input.a_1 = a_1;
+CoSim_Input.a_2 = a_2;
+CoSim_Input.a_3 = a_3;
+CoSim_Input.a_4 = a_4;
+CoSim_Input.a_5 = a_5;
+
 [OptSchedule,OptStates,SolverStatus] = func_EDC_CoSim_test(CoSim_Input);
