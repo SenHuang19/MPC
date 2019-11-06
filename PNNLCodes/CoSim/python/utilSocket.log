@@ -1,19 +1,12 @@
-*** BCVTB client log file.
-*************************.
-Writing to socket at time = 8.640000e+04
-Assembling buffer.
-Write to socket with fd = 180
-Buffer        = 2 0 17 0 0 8.640000000000000e+04 2.500000000000000e+01 2.407000327368494e+01 2.415993097597426e+01 2.327005679298057e+01 2.300004627490133e+01 2.315997567518732e+01 2.498969767991430e+01 2.431979617842671e+01 2.300004425816697e+01 2.301007169361882e+01 2.357008122998846e+01 2.460013482798788e+01 2.391983432365960e+01 2.348011695809207e+01 2.401021005687686e+01 2.427131080265647e+01 2.444992011319884e+01 
-
-Wrote 408 characters to socket.
-Reading from socket.
-In readbufferfromsocket: Read 232 chars, maximum is 22458.
-Disassembled buffer.
-Finished exchanging data with socket: simTimRea=8.640000e+04, flag=0.
-Assembling buffer.
-Write to socket with fd = 180
-Buffer        = 2 1 
-
-Wrote 5 characters to socket.
-sendclientmessage wrote flag 1, return value = 5.
-In readbufferfromsocket: Read 0 chars, maximum is 22458.
+utilSocket: Establishing socket based on file socket.cfg.
+Getting socket port number.
+Received socket port number 47569.
+Socket port number = 47569.
+Socket opened, sockfd = 30.
+Error when connecting to socket: Connection refused
+utilSocket: Establishing socket based on file socket.cfg.
+Getting socket port number.
+Received socket port number 47569.
+Socket port number = 47569.
+Socket opened, sockfd = 9.
+Error when connecting to socket: Connection refused

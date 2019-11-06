@@ -1,137 +1,145 @@
-function [OptSchedule,OptStates,SolverStatus] = func_EDC_CoSim_test(CoSim_Input)
+function [OptSchedule, OptStates, SolverStatus] = func_EDC_CoSim_test(ST, T_out, T_ini, Q_int, c_e, c_ng)
 
-ST = 5; % sampling time: 1, 5, 60 min
+% ST = 5; % sampling time: 1, 5, 60 min
 sample_time = strcat(num2str(ST), 'min');
 num_samples = 24*60/ST; % number of samples
 
 num_zone = 16; % number of zones
 
 %% load the coefficients a_0 ... a_5
-% top_floor = load(strcat('../Top_floor/', sample_time, '/top_floor.mat'));
-% mid_floor = load(strcat('../Mid_floor/', sample_time, '/mid_floor.mat'));
-% bot_floor = load(strcat('../Bot_floor/', sample_time, '/bot_floor.mat'));
-% 
-% a_0 = zeros(num_zone, 1);
-% a_1 = zeros(num_zone, 1);
-% a_2 = zeros(num_zone, 1);
-% a_3 = zeros(num_zone, 1);
-% a_4 = zeros(num_zone, 1);
-% a_5 = zeros(num_zone, 1);
-% 
-% for i = 1 : num_zone
-%     if  1 <= i && i <= 5 % top_floor
-%         a_0(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a0'));
-%         a_1(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a1'));
-%         a_2(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a2'));
-%         a_3(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a3'));
-%         a_4(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a4'));
-%         a_5(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a5'));
-%     end
-%     if  6 <= i && i <= 10 % mid_floor
-%         a_0(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a0'));
-%         a_1(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a1'));
-%         a_2(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a2'));
-%         a_3(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a3'));
-%         a_4(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a4'));
-%         a_5(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a5'));
-%     end
-%     if  11 <= i && i <= 15 % bot_floor
-%         a_0(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a0'));
-%         a_1(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a1'));
-%         a_2(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a2'));
-%         a_3(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a3'));
-%         a_4(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a4'));
-%         a_5(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a5'));
-%     end
-%     if  i == 16 % basement
-%         a_0(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a0'));
-%         a_1(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a1'));
-%         a_2(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a2'));
-%         a_3(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a3'));
-%         a_4(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a4'));
-%         a_5(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a5'));
-%     end
-% end
+top_floor = load(strcat('../Top_floor/', sample_time, '/top_floor.mat'));
+mid_floor = load(strcat('../Mid_floor/', sample_time, '/mid_floor.mat'));
+bot_floor = load(strcat('../Bot_floor/', sample_time, '/bot_floor.mat'));
 
-a_0 = CoSim_Input.a_0;
-a_1 = CoSim_Input.a_1;
-a_2 = CoSim_Input.a_2;
-a_3 = CoSim_Input.a_3;
-a_4 = CoSim_Input.a_4;
-a_5 = CoSim_Input.a_5;
+a_0 = zeros(num_zone, 1);
+a_1 = zeros(num_zone, 1);
+a_2 = zeros(num_zone, 1);
+a_3 = zeros(num_zone, 1);
+a_4 = zeros(num_zone, 1);
+a_5 = zeros(num_zone, 1);
 
-%% Read the initial zone temperature, the predicted outdoor temperature and internal heat gain
-
-T_ini = zeros(num_zone, 1); % initial zone temperature
-
-T_out_data = csvread('../data/Top_floor/summer_zone4-1.csv', 1, 1, [1 1 60*24 1]);
-Q_int_data = zeros(60*24, num_zone);
 for i = 1 : num_zone
     if  1 <= i && i <= 5 % top_floor
-        T_ini(i) = csvread(strcat('../data/Top_floor/summer_zone4-', num2str(i), '.csv'), 1, 3, [1 3 1 3]);
-        Q_int_data(:, i) = csvread(strcat('../data/Top_floor/summer_zone4-', num2str(i), '.csv'), 1, 2, [1 2 60*24 2]);
+        a_0(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a0'));
+        a_1(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a1'));
+        a_2(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a2'));
+        a_3(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a3'));
+        a_4(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a4'));
+        a_5(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a5'));
     end
     if  6 <= i && i <= 10 % mid_floor
-        T_ini(i) = csvread(strcat('../data/Mid_floor/summer_zone4-', num2str(i-5), '.csv'), 1, 3, [1 3 1 3]);
-        Q_int_data(:, i) = csvread(strcat('../data/Mid_floor/summer_zone4-', num2str(i-5), '.csv'), 1, 2, [1 2 60*24 2]);
+        a_0(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a0'));
+        a_1(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a1'));
+        a_2(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a2'));
+        a_3(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a3'));
+        a_4(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a4'));
+        a_5(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a5'));
     end
     if  11 <= i && i <= 15 % bot_floor
-        T_ini(i) = csvread(strcat('../data/Bot_floor/summer_zone4-', num2str(i-10), '.csv'), 1, 3, [1 3 1 3]);
-        Q_int_data(:, i) = csvread(strcat('../data/Bot_floor/summer_zone4-', num2str(i-10), '.csv'), 1, 2, [1 2 60*24 2]);
+        a_0(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a0'));
+        a_1(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a1'));
+        a_2(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a2'));
+        a_3(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a3'));
+        a_4(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a4'));
+        a_5(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a5'));
     end
     if  i == 16 % basement
-        T_ini(i) = csvread(strcat('../data/Bot_floor/summer_zone', num2str(i-10), '.csv'), 1, 3, [1 3 1 3]);
-        Q_int_data(:, i) = csvread(strcat('../data/Bot_floor/summer_zone', num2str(i-10), '.csv'), 1, 2, [1 2 60*24 2]);
+        a_0(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a0'));
+        a_1(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a1'));
+        a_2(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a2'));
+        a_3(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a3'));
+        a_4(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a4'));
+        a_5(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a5'));
     end
 end
 
-% T_out_avrgsample = zeros(num_samples, 1);
-% Q_int_avrgsample = zeros(num_samples, num_zone);
-% for j = 1 : ST : 60*24 % calculate the average outdoor temperature and internal heat gain during each sampling period
-%     k = (j+ST-1)/ST;
-%     T_out_avrgsample(k) = sum(T_out_data(j:j+ST-1))/ST;
-%     for i = 1 : num_zone
-%         Q_int_avrgsample(k, i) = sum(Q_int_data(j:j+ST-1, i))/ST;
+% a_0 = CoSim_Input.a_0;
+% a_1 = CoSim_Input.a_1;
+% a_2 = CoSim_Input.a_2;
+% a_3 = CoSim_Input.a_3;
+% a_4 = CoSim_Input.a_4;
+% a_5 = CoSim_Input.a_5;
+
+%% Read the initial zone temperature, the predicted outdoor temperature and internal heat gain
+
+% T_ini = zeros(num_zone, 1); % initial zone temperature
+% 
+% T_out_data = csvread('../data/Top_floor/summer_zone4-1.csv', 1, 1, [1 1 60*24 1]);
+% Q_int_data = zeros(60*24, num_zone);
+% for i = 1 : num_zone
+%     if  1 <= i && i <= 5 % top_floor
+%         T_ini(i) = csvread(strcat('../data/Top_floor/summer_zone4-', num2str(i), '.csv'), 1, 3, [1 3 1 3]);
+%         Q_int_data(:, i) = csvread(strcat('../data/Top_floor/summer_zone4-', num2str(i), '.csv'), 1, 2, [1 2 60*24 2]);
+%     end
+%     if  6 <= i && i <= 10 % mid_floor
+%         T_ini(i) = csvread(strcat('../data/Mid_floor/summer_zone4-', num2str(i-5), '.csv'), 1, 3, [1 3 1 3]);
+%         Q_int_data(:, i) = csvread(strcat('../data/Mid_floor/summer_zone4-', num2str(i-5), '.csv'), 1, 2, [1 2 60*24 2]);
+%     end
+%     if  11 <= i && i <= 15 % bot_floor
+%         T_ini(i) = csvread(strcat('../data/Bot_floor/summer_zone4-', num2str(i-10), '.csv'), 1, 3, [1 3 1 3]);
+%         Q_int_data(:, i) = csvread(strcat('../data/Bot_floor/summer_zone4-', num2str(i-10), '.csv'), 1, 2, [1 2 60*24 2]);
+%     end
+%     if  i == 16 % basement
+%         T_ini(i) = csvread(strcat('../data/Bot_floor/summer_zone', num2str(i-10), '.csv'), 1, 3, [1 3 1 3]);
+%         Q_int_data(:, i) = csvread(strcat('../data/Bot_floor/summer_zone', num2str(i-10), '.csv'), 1, 2, [1 2 60*24 2]);
 %     end
 % end
-
-T_out_downsample = downsample(T_out_data, ST);
-Q_int_downsample = downsample(Q_int_data, ST);
+% 
+% % T_out_avrgsample = zeros(num_samples, 1);
+% % Q_int_avrgsample = zeros(num_samples, num_zone);
+% % for j = 1 : ST : 60*24 % calculate the average outdoor temperature and internal heat gain during each sampling period
+% %     k = (j+ST-1)/ST;
+% %     T_out_avrgsample(k) = sum(T_out_data(j:j+ST-1))/ST;
+% %     for i = 1 : num_zone
+% %         Q_int_avrgsample(k, i) = sum(Q_int_data(j:j+ST-1, i))/ST;
+% %     end
+% % end
+% 
+% T_out_downsample = downsample(T_out_data, ST);
+% Q_int_downsample = downsample(Q_int_data, ST);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Optimization engine
 
 % mpc parameters
-tshift = 1;
+% tshift = 1;
 
 N_schd = num_samples;
 N_zone = num_zone;
 N_AHU = 4;
 
 % load price (hourly price)
-load OfficePricingInfo.mat;
-c_e_vec = eval(strcat('ElecPrice.Low;')); % $/kWh
-c_ng_vec_mmbtu = eval(strcat('GasPrice.High;')); % $/mmbtu
-c_ng_vec = c_ng_vec_mmbtu/293.07; % $/kWh
-
-c_e_vec = kron(c_e_vec, ones(60/ST, 1));
-c_ng_vec = kron(c_ng_vec, ones(60/ST, 1));
-c_e = c_e_vec(tshift:tshift+N_schd-1);
-c_ng = c_ng_vec(tshift:tshift+N_schd-1);
+% load OfficePricingInfo.mat;
+% c_e_vec = eval(strcat('ElecPrice.Low;')); % $/kWh
+% c_ng_vec_mmbtu = eval(strcat('GasPrice.High;')); % $/mmbtu
+% c_ng_vec = c_ng_vec_mmbtu/293.07; % $/kWh
+% 
+% c_e_vec = kron(c_e_vec, ones(60/ST, 1));
+% c_ng_vec = kron(c_ng_vec, ones(60/ST, 1));
+% c_e = c_e_vec(tshift:tshift+N_schd-1);
+% c_ng = c_ng_vec(tshift:tshift+N_schd-1);
 
 % load boiler, chiller, and fan
 load(strcat('../boiler/', sample_time, '/boiler.mat'));
 load(strcat('../chiller/', sample_time, '/chiller.mat'));
 load(strcat('../fan/fan.mat'));
 
+load Inputs_OfficeROM_sizing_Baltimore.mat;
+m_min = Params_office_sizing(:,2);
+m_min(6:10) = m_min(6:10)/10;
+m_max = Params_office_sizing(:,1);
+m_max(6:10) = m_max(6:10)/10;
+Prh_max = Params_office_sizing(:,3);
+Prh_max(6:10) = Prh_max(6:10)/10;
+
 % temperature bounds
 T_low = 20*ones(N_zone, 1);
 T_hgh = 24*ones(N_zone, 1);
 
 % ourdoor temperature and internal heat gain
-T_out = (T_out_downsample(tshift:tshift+N_schd-1))';
-Q_int = (Q_int_downsample(tshift:tshift+N_schd-1,:))';
+% T_out = (T_out_downsample(tshift:tshift+N_schd-1))';
+% Q_int = (Q_int_downsample(tshift:tshift+N_schd-1,:))';
 
 Zoneparam.Cp = 1000; % specific heat of air
 Zoneparam.Ts = f2c(55)*ones(N_AHU,1); % supply air temperature
@@ -227,8 +235,8 @@ cvx_begin
 
         for i_sch = 1 : N_schd
             
-            zeros(N_zone, 1) <= m_z(:, i_sch);
-            zeros(N_zone, 1) <= Prh(:, i_sch);
+            m_min <= m_z(:, i_sch) <= m_max;
+            zeros(N_zone, 1) <= Prh(:, i_sch) <= Prh_max;
             
             if  i_sch == 1
                 T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_ini + a_3.*m_z(:,i_sch) + a_4.*Prh(:,i_sch) + a_5.*Q_int(:,i_sch);

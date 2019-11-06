@@ -12,8 +12,8 @@ class socket_server:
           self.sock=socket.socket()
           self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
           host=socket.gethostname()
-          port=47569
-          self.sock.bind(("127.0.0.1",port))
+          port=5000
+          self.sock.bind(("127.0.0.1",5500))
           self.sock.listen(10)
 		  
 def data_parse(data): 
@@ -93,7 +93,7 @@ ele=[x for item in ele_raw for x in repeat(item, 3600/control_horizon_length)]
 #print reg
 	
 server=socket_server()
-write_port_file(47569,'127.0.0.1')
+write_port_file(5500,'127.0.0.1')
 
 vers = 2
 flag = 0

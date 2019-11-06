@@ -16,10 +16,10 @@ weatherPath='USA_MD_Baltimore-Washington.Intl.AP.724060_TMY3.epw'
 modelDir='B_Office_20181228.idf'
 
 
-cmdStr = "C:\EnergyPlusV8-9-0\energyplus -w \"%s\" -r \"%s\"" % (weatherPath, modelDir)
+cmdStr = "/Applications/EnergyPlus-8-9-0/energyplus -w \"%s\" -r \"%s\"" % (weatherPath, modelDir)
 
 simulation = subprocess.Popen(cmdStr, shell=True)
-sock=subprocess.Popen('python '+'mpc_run.py', shell=True)
+#sock=subprocess.Popen('python '+'mpc_run.py', shell=True)
 
 
 sock.wait()
