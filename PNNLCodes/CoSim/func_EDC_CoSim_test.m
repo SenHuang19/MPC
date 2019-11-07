@@ -1,4 +1,4 @@
-function [OptSchedule, OptStates, SolverStatus] = func_EDC_CoSim_test(ST, T_out, T_ini, Q_int, c_e, c_ng)
+function [Optimal_Temp_Ctrl] = func_EDC_CoSim_test(ST, c_e, c_ng, T_out, Q_int, T_ini)
 
 % ST = 5; % sampling time: 1, 5, 60 min
 sample_time = strcat(num2str(ST), 'min');
@@ -7,9 +7,9 @@ num_samples = 24*60/ST; % number of samples
 num_zone = 16; % number of zones
 
 %% load the coefficients a_0 ... a_5
-top_floor = load(strcat('../Top_floor/', sample_time, '/top_floor.mat'));
-mid_floor = load(strcat('../Mid_floor/', sample_time, '/mid_floor.mat'));
-bot_floor = load(strcat('../Bot_floor/', sample_time, '/bot_floor.mat'));
+top_floor = load(strcat('Top_floor/', sample_time, '/top_floor.mat'));
+mid_floor = load(strcat('Mid_floor/', sample_time, '/mid_floor.mat'));
+bot_floor = load(strcat('Bot_floor/', sample_time, '/bot_floor.mat'));
 
 a_0 = zeros(num_zone, 1);
 a_1 = zeros(num_zone, 1);
@@ -53,12 +53,6 @@ for i = 1 : num_zone
     end
 end
 
-% a_0 = CoSim_Input.a_0;
-% a_1 = CoSim_Input.a_1;
-% a_2 = CoSim_Input.a_2;
-% a_3 = CoSim_Input.a_3;
-% a_4 = CoSim_Input.a_4;
-% a_5 = CoSim_Input.a_5;
 
 %% Read the initial zone temperature, the predicted outdoor temperature and internal heat gain
 
@@ -121,17 +115,17 @@ N_AHU = 4;
 % c_ng = c_ng_vec(tshift:tshift+N_schd-1);
 
 % load boiler, chiller, and fan
-load(strcat('../boiler/', sample_time, '/boiler.mat'));
-load(strcat('../chiller/', sample_time, '/chiller.mat'));
-load(strcat('../fan/fan.mat'));
+load(strcat('boiler/', sample_time, '/boiler.mat'));
+load(strcat('chiller/', sample_time, '/chiller.mat'));
+load(strcat('fan/fan.mat'));
 
-load Inputs_OfficeROM_sizing_Baltimore.mat;
-m_min = Params_office_sizing(:,2);
-m_min(6:10) = m_min(6:10)/10;
-m_max = Params_office_sizing(:,1);
-m_max(6:10) = m_max(6:10)/10;
-Prh_max = Params_office_sizing(:,3);
-Prh_max(6:10) = Prh_max(6:10)/10;
+load limits.mat;
+% m_min = Params_office_sizing(:,2);
+% m_min(6:10) = m_min(6:10)/10;
+% m_max = Params_office_sizing(:,1);
+% m_max(6:10) = m_max(6:10)/10;
+% Prh_max = Params_office_sizing(:,3);
+% Prh_max(6:10) = Prh_max(6:10)/10;
 
 % temperature bounds
 T_low = 20*ones(N_zone, 1);
@@ -235,11 +229,11 @@ cvx_begin
 
         for i_sch = 1 : N_schd
             
-            m_min <= m_z(:, i_sch) <= m_max;
-            zeros(N_zone, 1) <= Prh(:, i_sch) <= Prh_max;
+            m_min <= m_z(:, i_sch); % <= m_max;
+            zeros(N_zone, 1) <= Prh(:, i_sch); % <= Prh_max;
             
             if  i_sch == 1
-                T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_ini + a_3.*m_z(:,i_sch) + a_4.*Prh(:,i_sch) + a_5.*Q_int(:,i_sch);
+                T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_ini' + a_3.*m_z(:,i_sch) + a_4.*Prh(:,i_sch) + a_5.*Q_int(:,i_sch);
             else
                 T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_z(:,i_sch-1) + a_3.*m_z(:,i_sch) + a_4.*Prh(:,i_sch) + a_5.*Q_int(:,i_sch);
             end
@@ -252,13 +246,15 @@ cvx_end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-OptSchedule = [];
-OptSchedule.m_z = m_z;
-OptSchedule.Prh = Prh;
+% OptSchedule = [];
+% OptSchedule.m_z = m_z;
+% OptSchedule.Prh = Prh;
+% 
+% OptStates = [];
+% OptStates.T_z = T_z;
+% 
+% SolverStatus = [];
+% SolverStatus.Status = cvx_status;
+% SolverStatus.OptVal = cvx_optval;
 
-OptStates = [];
-OptStates.T_z = T_z;
-
-SolverStatus = [];
-SolverStatus.Status = cvx_status;
-SolverStatus.OptVal = cvx_optval;
+Optimal_Temp_Ctrl = T_z(:,1);
