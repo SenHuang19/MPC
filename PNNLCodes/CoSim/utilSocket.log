@@ -1,26 +1,26 @@
 *** BCVTB client log file.
 *************************.
-Writing to socket at time = 6.000000e+01
+Writing to socket at time = 8.670000e+04
 Assembling buffer.
-Write to socket with fd = 180
-Buffer        = 2 0 17 0 0 6.000000000000000e+01 2.497500000000000e+01 2.400021172423926e+01 2.399991664623647e+01 2.399993029044591e+01 2.400014348948186e+01 2.400006205288541e+01 2.400000274441147e+01 2.399990345692441e+01 2.399994605164617e+01 2.399971498428790e+01 2.399999697437331e+01 2.399997458346420e+01 2.399994159191019e+01 2.399997445456546e+01 2.399997705348641e+01 2.399999634186236e+01 2.399999269463097e+01 
+Write to socket with fd = 176
+Buffer        = 2 0 17 0 0 8.670000000000000e+04 2.495000000000000e+01 2.396643934823365e+01 2.400053032636349e+01 2.399992822417956e+01 2.316506262722996e+01 2.382715325789802e+01 2.400026650335525e+01 2.382546031459006e+01 2.399994318344473e+01 2.357880645147437e+01 2.399999422928671e+01 2.399997320503082e+01 2.399984926976600e+01 2.399997314234871e+01 2.399997353355216e+01 2.399999489631016e+01 2.171757794426900e+01 
 
 Wrote 408 characters to socket.
 Reading from socket.
-In readbufferfromsocket: Read -1 chars, maximum is 22458.
-Error reading: WSAGetLastError = 10054
+In readbufferfromsocket: Read 0 chars, maximum is 22458.
+Error reading: WSAGetLastError = 0
 Finished exchanging data with socket: simTimRea=0.000000e+00, flag=-1.
 Assembling buffer.
-Write to socket with fd = 180
+Write to socket with fd = 176
 Buffer        = 2 -20 
 
-Error writing to socket: Return value = -1.
-Error writing to socket: WSAGetLastError = 10054
-sendclientmessage wrote flag -20, return value = -1.
+Wrote 7 characters to socket.
+sendclientmessage wrote flag -20, return value = 7.
+In readbufferfromsocket: Read -1 chars, maximum is 22458.
 Assembling buffer.
-Write to socket with fd = 180
+Write to socket with fd = 176
 Buffer        = 2 -1 
 
 Error writing to socket: Return value = -1.
-Error writing to socket: WSAGetLastError = 10054
+Error writing to socket: WSAGetLastError = 10053
 sendclientmessage wrote flag -1, return value = -1.
