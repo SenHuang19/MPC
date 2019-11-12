@@ -1,15 +1,17 @@
-function [Optimal_Temp_Ctrl] = func_EDC_CoSim_test(ST, c_e, c_ng, T_out, Q_int, T_ini)
+function [Optimal_Temp_Ctrl, Opt_m_z, Opt_Prh] = func_EDC_CoSim_test(ST, DT, c_e, c_ng, T_out, Q_int, T_ini)
 
 % ST = 5; % sampling time: 1, 5, 60 min
 sample_time = strcat(num2str(ST), 'min');
 num_samples = 24*60/ST; % number of samples
 
+N = ST/DT;
+
 num_zone = 16; % number of zones
 
 %% load the coefficients a_0 ... a_5
-top_floor = load(strcat('Top_floor/', sample_time, '/top_floor.mat'));
-mid_floor = load(strcat('Mid_floor/', sample_time, '/mid_floor.mat'));
-bot_floor = load(strcat('Bot_floor/', sample_time, '/bot_floor.mat'));
+top_floor = load(strcat('paras/Top_floor/', sample_time, '/top_floor.mat'));
+mid_floor = load(strcat('paras/Mid_floor/', sample_time, '/mid_floor.mat'));
+bot_floor = load(strcat('paras/Bot_floor/', sample_time, '/bot_floor.mat'));
 
 a_0 = zeros(num_zone, 1);
 a_1 = zeros(num_zone, 1);
@@ -115,11 +117,11 @@ N_AHU = 4;
 % c_ng = c_ng_vec(tshift:tshift+N_schd-1);
 
 % load boiler, chiller, and fan
-load(strcat('boiler/', sample_time, '/boiler.mat'));
-load(strcat('chiller/', sample_time, '/chiller.mat'));
-load(strcat('fan/fan.mat'));
+load(strcat('paras/boiler/', sample_time, '/boiler.mat'));
+load(strcat('paras/chiller/', sample_time, '/chiller.mat'));
+load(strcat('paras/fan/fan.mat'));
 
-load limits.mat;
+load (strcat('paras/limits.mat'));
 % m_min = Params_office_sizing(:,2);
 % m_min(6:10) = m_min(6:10)/10;
 % m_max = Params_office_sizing(:,1);
@@ -148,7 +150,7 @@ cvx_begin
     
     variable m_z(N_zone, N_schd)
     variable Prh(N_zone, N_schd)
-    variable T_z(N_zone, N_schd)
+    variable T_z(N_zone, N_schd*N)
 
     expression Pcc_i(N_AHU)
     expression Pcc_total(N_schd)
@@ -203,7 +205,7 @@ cvx_begin
                 Pf_i(n_f) = cfan_0 + cfan_1*sum(m_z_power(5*n_f-4:5*n_f,i)) + cfan_2*power(sum(m_z_power(5*n_f-4:5*n_f,i)),2);
             end
             if  n_f == 4
-                Pf_i(n_f) = cfan_0 + cfan_1*m_z_power(16,i); % + cfan_2*power(m_z_power(16,i),2);
+                Pf_i(n_f) = cfan_0 + cfan_1*m_z_power(16,i);% + cfan_2*power(m_z_power(16,i),2);
             end
         end
         Pf_total(i) = sum(Pf_i);
@@ -227,15 +229,24 @@ cvx_begin
 
     subject to
 
-        for i_sch = 1 : N_schd
+        for i = 1 : N_schd
             
-            m_min <= m_z(:, i_sch); % <= m_max;
-            zeros(N_zone, 1) <= Prh(:, i_sch); % <= Prh_max;
+            m_min <= m_z(:, i); % <= m_max;
+            zeros(N_zone, 1) <= Prh(:, i); % <= Prh_max;
+            
+        end
+        
+        T_out = kron(T_out, ones(1,N));
+        T_m_z = kron(m_z, ones(1,N));
+        T_Prh = kron(Prh, ones(1,N));
+        T_Q_int = kron(Q_int, ones(1,N));
+        
+        for i_sch = 1 : N_schd * N
             
             if  i_sch == 1
-                T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_ini' + a_3.*m_z(:,i_sch) + a_4.*Prh(:,i_sch) + a_5.*Q_int(:,i_sch);
+                T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_ini' + a_3.*T_m_z(:,i_sch) + a_4.*T_Prh(:,i_sch) + a_5.*T_Q_int(:,i_sch);
             else
-                T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_z(:,i_sch-1) + a_3.*m_z(:,i_sch) + a_4.*Prh(:,i_sch) + a_5.*Q_int(:,i_sch);
+                T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_z(:,i_sch-1) + a_3.*T_m_z(:,i_sch) + a_4.*T_Prh(:,i_sch) + a_5.*T_Q_int(:,i_sch);
             end
 
             T_low <= T_z(:, i_sch) <= T_hgh;
@@ -247,9 +258,9 @@ cvx_end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % OptSchedule = [];
-% OptSchedule.m_z = m_z;
-% OptSchedule.Prh = Prh;
-% 
+Opt_m_z = m_z(:,1);
+Opt_Prh = Prh(:,1);
+
 % OptStates = [];
 % OptStates.T_z = T_z;
 % 

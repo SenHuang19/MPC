@@ -55,13 +55,13 @@ flag = 0
 
 ### read price info
 
-price_e=np.loadtxt('price_e.csv')
+price_e=np.loadtxt('paras/price_e.csv')
 
-price_n=np.loadtxt('price_g.csv')
+price_n=np.loadtxt('paras/price_g.csv')
 
-control_horizon_length=300
+control_horizon_length=3600
 
-samp_time=300
+samp_time=3600
 
 
 ele=[float(x) for item in price_e for x in repeat(item, 3600/samp_time)]
@@ -73,7 +73,7 @@ print len(ele)
 
 ### read prediction
 
-prediction=pd.read_csv('input.csv' )
+prediction=pd.read_csv('paras/input.csv' )
 
 
 prediction=prediction.groupby(np.arange(len(prediction))//int(samp_time/60)).mean()
@@ -94,8 +94,11 @@ index=0
 #print len(samp_time)
 
 
+f1=open('result/m.csv','w')
+f2=open('result/r.csv','w')
 
 
+record=0
 while 1:
 
 
@@ -114,15 +117,18 @@ while 1:
          arry = data.split()
          flagt = float(arry[1])
          if flagt==1:
+                 f1.close()
+                 f2.close()
                  conn.close()
                  sys.exit()
          if len(arry)>6:
               time=float(arry[5])
               mssg = '%r %r %r 0 0 %r' % (vers, flag, 38, time) 
-
+              if record<=1439:
+                   tset=[[22]]*16
                 
 #              print mssg
-              if index%(int(control_horizon_length/60))==0:
+              if record>1439 and index%(int(control_horizon_length/60))==0:
 
                        start_t=index/int(control_horizon_length/60)  
 
@@ -164,16 +170,25 @@ while 1:
               
 #                          print index
                        set=[]
-                       tset= eng.func_EDC_CoSim_test(samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m)
-#                       print tset
+                       m=[]
+                       rh=[]
+                       tset,m,rh= eng.func_EDC_CoSim_test(samp_time/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=3)
+                       for tt in range(len(m)-1):
+                             f1.writelines(str(m[tt][0])+',')
+                       f1.writelines(str(m[-1][0])+'\n')
+                       for tt in range(len(rh)-1):
+                             f2.writelines(str(rh[tt][0])+',')
+                       f2.writelines(str(rh[-1][0])+'\n')
 
                       
               for i in range(16):
-                   mssg = mssg + ' ' + str(tset[i][0])+ ' ' + str(tset[i][0])
-              mssg = mssg+ ' ' + str(0.3) + ' ' + str(0.3)+ ' ' +str(0.3)+ ' ' +str(0.3)+ ' ' +str(2500)+ ' ' +str(0)
+                   mssg = mssg + ' ' + str(20)+ ' ' + str(tset[i][0])
+              mssg = mssg+ ' ' + str(0.1) + ' ' + str(0.1)+ ' ' +str(0.1)+ ' ' +str(0.1)+ ' ' +str(0)+ ' ' +str(0)
 
               mssg =  mssg+'\n'
-              index=index+1
+              record=record+1
+              if record>1439:
+                   index=index+1
               conn.send(mssg)
 
 	 
