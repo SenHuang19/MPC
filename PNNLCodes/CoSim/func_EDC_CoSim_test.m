@@ -9,9 +9,8 @@ N = ST/DT;
 num_zone = 16; % number of zones
 
 %% load the coefficients a_0 ... a_5
-top_floor = load(strcat('paras/Top_floor/', sample_time, '/top_floor.mat'));
-mid_floor = load(strcat('paras/Mid_floor/', sample_time, '/mid_floor.mat'));
-bot_floor = load(strcat('paras/Bot_floor/', sample_time, '/bot_floor.mat'));
+load(strcat('paras/zone/', sample_time, '/zones.mat'));
+
 
 a_0 = zeros(num_zone, 1);
 a_1 = zeros(num_zone, 1);
@@ -21,38 +20,14 @@ a_4 = zeros(num_zone, 1);
 a_5 = zeros(num_zone, 1);
 
 for i = 1 : num_zone
-    if  1 <= i && i <= 5 % top_floor
-        a_0(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a0'));
-        a_1(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a1'));
-        a_2(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a2'));
-        a_3(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a3'));
-        a_4(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a4'));
-        a_5(i) = eval(strcat('top_floor.zone4_', num2str(i), '_summer_result.a5'));
-    end
-    if  6 <= i && i <= 10 % mid_floor
-        a_0(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a0'));
-        a_1(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a1'));
-        a_2(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a2'));
-        a_3(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a3'));
-        a_4(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a4'));
-        a_5(i) = eval(strcat('mid_floor.zone4_', num2str(i-5), '_summer_result.a5'));
-    end
-    if  11 <= i && i <= 15 % bot_floor
-        a_0(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a0'));
-        a_1(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a1'));
-        a_2(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a2'));
-        a_3(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a3'));
-        a_4(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a4'));
-        a_5(i) = eval(strcat('bot_floor.zone4_', num2str(i-10), '_summer_result.a5'));
-    end
-    if  i == 16 % basement
-        a_0(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a0'));
-        a_1(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a1'));
-        a_2(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a2'));
-        a_3(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a3'));
-        a_4(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a4'));
-        a_5(i) = eval(strcat('bot_floor.zone', num2str(i-10), '_summer_result.a5'));
-    end
+
+        a_0(i) = eval(strcat('z', num2str(i-1), '.a0'));
+        a_1(i) = eval(strcat('z', num2str(i-1), '.a1'));
+        a_2(i) = eval(strcat('z', num2str(i-1), '.a2'));
+        a_3(i) = eval(strcat('z', num2str(i-1), '.a3'));
+        a_4(i) = eval(strcat('z', num2str(i-1), '.a4'));
+        a_5(i) = eval(strcat('z', num2str(i-1), '.a5'));
+
 end
 
 
@@ -268,4 +243,4 @@ Opt_Prh = Prh(:,1);
 % SolverStatus.Status = cvx_status;
 % SolverStatus.OptVal = cvx_optval;
 
-Optimal_Temp_Ctrl = T_z(:,1);
+Optimal_Temp_Ctrl = T_z(:,2);

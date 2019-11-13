@@ -19,7 +19,7 @@ modelDir='B_Office_20181228.idf'
 cmdStr = "C:\EnergyPlusV8-9-0\energyplus -w \"%s\" -r \"%s\"" % (weatherPath, modelDir)
 
 simulation = subprocess.Popen(cmdStr, shell=True)
-sock=subprocess.Popen('python '+'mpc_run.py'+' '+sys.argv[1]+' '+sys.argv[2], shell=True)
+sock=subprocess.Popen('python '+'baseline.py', shell=True)
 
 
 sock.wait()

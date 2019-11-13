@@ -59,14 +59,14 @@ price_e=np.loadtxt('paras/price_e.csv')
 
 price_n=np.loadtxt('paras/price_g.csv')
 
-control_horizon_length=3600
+control_horizon_length=int(sys.argv[1])
 
-samp_time=3600
+samp_time=int(sys.argv[2])
 
 
-ele=[float(x) for item in price_e for x in repeat(item, 3600/samp_time)]
+ele=[float(x) for item in price_e for x in repeat(item, 3600/control_horizon_length)]
 
-gas=[float(x) for item in price_n for x in repeat(item, 3600/samp_time)]
+gas=[float(x) for item in price_n for x in repeat(item, 3600/control_horizon_length)]
 
 
 print len(ele)
@@ -76,7 +76,7 @@ print len(ele)
 prediction=pd.read_csv('paras/input.csv' )
 
 
-prediction=prediction.groupby(np.arange(len(prediction))//int(samp_time/60)).mean()
+prediction=prediction.groupby(np.arange(len(prediction))//int(control_horizon_length/60)).mean()
 
 tout=prediction['tout'].values.tolist()
 
@@ -99,6 +99,8 @@ f2=open('result/r.csv','w')
 
 
 record=0
+tini=[]
+tini_arr=[]
 while 1:
 
 
@@ -126,7 +128,22 @@ while 1:
               mssg = '%r %r %r 0 0 %r' % (vers, flag, 38, time) 
               if record<=1439:
                    tset=[[22]]*16
-                
+
+                                                
+              if record>0 and record%(int(samp_time/60))==0:
+                     tini=[]                    
+                     for i in range(16):
+                              sum=0
+                              for j in range(len(tini_arr)):
+                                     sum=sum+tini_arr[j][i]
+                                                                   
+                              tini.append(sum/float(len(tini_arr)))
+                     tini_arr=[]
+              temp=[]
+              for i in range(7,7+16):
+                                  temp.append(float(arry[i]))
+                                                
+              tini_arr.append(temp)  
 #              print mssg
               if record>1439 and index%(int(control_horizon_length/60))==0:
 
@@ -145,9 +162,7 @@ while 1:
 
                        gas_m=matlab.double(gas[start_t:end_t])
          
-                       tini=[]
-                       for i in range(7,7+16):
-                                  tini.append(float(arry[i]))                                       
+                                  
                        tini_m=matlab.double([tini])         
          
          
@@ -172,7 +187,7 @@ while 1:
                        set=[]
                        m=[]
                        rh=[]
-                       tset,m,rh= eng.func_EDC_CoSim_test(samp_time/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=3)
+                       tset,m,rh= eng.func_EDC_CoSim_test(control_horizon_length/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=3)
                        for tt in range(len(m)-1):
                              f1.writelines(str(m[tt][0])+',')
                        f1.writelines(str(m[-1][0])+'\n')
