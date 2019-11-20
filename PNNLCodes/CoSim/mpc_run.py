@@ -187,7 +187,9 @@ while 1:
                        set=[]
                        m=[]
                        rh=[]
-                       tset,m,rh= eng.func_EDC_CoSim_test(control_horizon_length/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=3)
+                       cost=[]
+                       tset,m,rh,cost = eng.func_EDC_CoSim_test(control_horizon_length/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=4)
+                       print cost
                        for tt in range(len(m)-1):
                              f1.writelines(str(m[tt][0])+',')
                        f1.writelines(str(m[-1][0])+'\n')

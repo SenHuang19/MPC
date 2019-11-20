@@ -1,4 +1,4 @@
-function [Optimal_Temp_Ctrl, Opt_m_z, Opt_Prh] = func_EDC_CoSim_test(ST, DT, c_e, c_ng, T_out, Q_int, T_ini)
+function [Optimal_Temp_Ctrl, Opt_m_z, Opt_Prh, Opt_J] = func_EDC_CoSim_test(ST, DT, c_e, c_ng, T_out, Q_int, T_ini)
 
 % ST = 5; % sampling time: 1, 5, 60 min
 sample_time = strcat(num2str(ST), 'min');
@@ -180,7 +180,7 @@ cvx_begin
                 Pf_i(n_f) = cfan_0 + cfan_1*sum(m_z_power(5*n_f-4:5*n_f,i)) + cfan_2*power(sum(m_z_power(5*n_f-4:5*n_f,i)),2);
             end
             if  n_f == 4
-                Pf_i(n_f) = cfan_0 + cfan_1*m_z_power(16,i);% + cfan_2*power(m_z_power(16,i),2);
+                Pf_i(n_f) = cfan_0 + cfan_1*m_z_power(16,i); % + cfan_2*power(m_z_power(16,i),2);
             end
         end
         Pf_total(i) = sum(Pf_i);
@@ -235,6 +235,7 @@ cvx_end
 % OptSchedule = [];
 Opt_m_z = m_z(:,1);
 Opt_Prh = Prh(:,1);
+Opt_J = J(1);
 
 % OptStates = [];
 % OptStates.T_z = T_z;
@@ -243,4 +244,4 @@ Opt_Prh = Prh(:,1);
 % SolverStatus.Status = cvx_status;
 % SolverStatus.OptVal = cvx_optval;
 
-Optimal_Temp_Ctrl = T_z(:,2);
+Optimal_Temp_Ctrl = T_z(:,1);
