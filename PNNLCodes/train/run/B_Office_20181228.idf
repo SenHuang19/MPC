@@ -131,9 +131,9 @@ SizingPeriod:DesignDay,
 RunPeriod,
     Run Period 1,            !- Name
     7,                       !- Begin Month
-    31,                       !- Begin Day of Month
-    8,                       !- End Month
-    4,                      !- End Day of Month
+    24,                       !- Begin Day of Month
+    7,                       !- End Month
+    28,                      !- End Day of Month
     Monday,                  !- Day of Week for Start Day
     No,                      !- Use Weather File Holidays and Special Days
     No,                      !- Use Weather File Daylight Saving Period

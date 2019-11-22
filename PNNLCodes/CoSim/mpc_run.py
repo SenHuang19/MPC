@@ -97,6 +97,8 @@ index=0
 f1=open('result/m.csv','w')
 f2=open('result/r.csv','w')
 
+f3=open('result/c.csv','w')
+
 
 record=0
 tini=[]
@@ -121,6 +123,7 @@ while 1:
          if flagt==1:
                  f1.close()
                  f2.close()
+                 f3.close()
                  conn.close()
                  sys.exit()
          if len(arry)>6:
@@ -188,18 +191,19 @@ while 1:
                        m=[]
                        rh=[]
                        cost=[]
-                       tset,m,rh,cost = eng.func_EDC_CoSim_test(control_horizon_length/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=4)
-                       print cost
+                       tset,m,rh,cost = eng.func_EDC_CoSim_test_penalty(control_horizon_length/60.,samp_time/60.,ele_m,gas_m,tout_m,qin_m,tini_m, nargout=4)
+                       print tset
                        for tt in range(len(m)-1):
                              f1.writelines(str(m[tt][0])+',')
                        f1.writelines(str(m[-1][0])+'\n')
                        for tt in range(len(rh)-1):
                              f2.writelines(str(rh[tt][0])+',')
                        f2.writelines(str(rh[-1][0])+'\n')
+                       f3.writelines(str(cost)+'\n')
 
                       
               for i in range(16):
-                   mssg = mssg + ' ' + str(20)+ ' ' + str(tset[i][0])
+                   mssg = mssg + ' ' + str(20)+ ' ' + str(round(tset[i][0],2))
               mssg = mssg+ ' ' + str(0.1) + ' ' + str(0.1)+ ' ' +str(0.1)+ ' ' +str(0.1)+ ' ' +str(0)+ ' ' +str(0)
 
               mssg =  mssg+'\n'

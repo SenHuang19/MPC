@@ -36,6 +36,19 @@ q=pd.DataFrame()
 oa=pd.DataFrame()
 oa['oa']=result['Environment:Site Outdoor Air Drybulb Temperature [C](TimeStep)']
 
+device=pd.DataFrame()
+
+device['fan4']=result['CAV_BAS FAN:Fan Electric Power [W](TimeStep)']
+
+device['fan3']=result['VAV_BOT WITH REHEAT FAN:Fan Electric Power [W](TimeStep)']
+
+device['fan2']=result['VAV_MID WITH REHEAT FAN:Fan Electric Power [W](TimeStep)']
+
+device['fan1']=result['VAV_TOP WITH REHEAT FAN:Fan Electric Power [W](TimeStep)']
+
+device['chiller']=result['90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0.6KW/TON:Chiller Electric Power [W](TimeStep)']
+
+
 i=0
 min=[]
 for zone in zones:
@@ -66,6 +79,8 @@ zt=zt.groupby(np.arange(len(zt))//num).mean()
 
 oa=oa.groupby(np.arange(len(oa))//num).mean()
 
+device=device.groupby(np.arange(len(device))//num).mean()
+
 m.to_csv('result/m.csv')
 
 rh.to_csv('result/rh.csv')
@@ -76,3 +91,4 @@ zt.to_csv('result/zt.csv')
 
 oa.to_csv('result/oa.csv')
 
+device.to_csv('result/device.csv')

@@ -9,8 +9,9 @@ N = ST/DT;
 num_zone = 16; % number of zones
 
 %% load the coefficients a_0 ... a_5
-load(strcat('paras/zone/', sample_time, '/zones.mat'));
-
+load(strcat('paras/coeff/', sample_time, '/zones.mat'));
+load(strcat('paras/coeff/', sample_time, '/chiller.mat'));
+load(strcat('paras/coeff/', sample_time, '/fans.mat'));
 
 a_0 = zeros(num_zone, 1);
 a_1 = zeros(num_zone, 1);
@@ -92,9 +93,9 @@ N_AHU = 4;
 % c_ng = c_ng_vec(tshift:tshift+N_schd-1);
 
 % load boiler, chiller, and fan
-load(strcat('paras/boiler/', sample_time, '/boiler.mat'));
-load(strcat('paras/chiller/', sample_time, '/chiller.mat'));
-load(strcat('paras/fan/fan.mat'));
+% load(strcat('paras/boiler/', sample_time, '/boiler.mat'));
+% load(strcat('paras/chiller/', sample_time, '/chiller.mat'));
+% load(strcat('paras/fan/fan.mat'));
 
 load (strcat('paras/limits.mat'));
 % m_min = Params_office_sizing(:,2);
@@ -120,7 +121,7 @@ alpha_oa = 0.1;
 Tmix_vec = alpha_oa*T_out + (1-alpha_oa)*Zoneparam.T_approx(1); % same OA ratio and T_approx for all zones
 
 cvx_begin
-
+    cvx_precision low
     % Decision variables and expressions
     
     variable m_z(N_zone, N_schd)
@@ -139,7 +140,7 @@ cvx_begin
     expression J(N_schd)
     
     m_z_power = m_z;
-    m_z_power(6:10,:) = m_z_power(6:10,:) * 10; % mid-floor
+%     m_z_power(6:10,:) = m_z_power(6:10,:)* 10; % mid-floor
     
     Prh_power = Prh;
     Prh_power(6:10,:) = Prh_power(6:10,:) * 10; % mid-floor
@@ -168,19 +169,19 @@ cvx_begin
             end
         end
         Pcc_total(i) = sum(Pcc_i);
-        Pch_i = summer_chiller_result.d0 + summer_chiller_result.d1*T_out(i) + summer_chiller_result.d2*Pcc_total(i);
+        Pch_i = chiller.d0 + chiller.d1*T_out(i) +chiller.d2*Pcc_total(i);
 
         %%  fan
         
         for n_f = 1 : N_AHU
-            cfan_0 = eval(strcat('summer_fan', num2str(n_f), '_result.c0;'));
-            cfan_1 = eval(strcat('summer_fan', num2str(n_f), '_result.c1;'));
-            cfan_2 = eval(strcat('summer_fan', num2str(n_f), '_result.c2;'));
+            cfan_0 = eval(strcat('fan', num2str(n_f), '.c0;'));
+            cfan_1 = eval(strcat('fan', num2str(n_f), '.c1;'));
+            cfan_2 = eval(strcat('fan', num2str(n_f), '.c2;'));
             if  1 <= n_f && n_f <= 3
                 Pf_i(n_f) = cfan_0 + cfan_1*sum(m_z_power(5*n_f-4:5*n_f,i)) + cfan_2*power(sum(m_z_power(5*n_f-4:5*n_f,i)),2);
             end
             if  n_f == 4
-                Pf_i(n_f) = cfan_0 + cfan_1*m_z_power(16,i); % + cfan_2*power(m_z_power(16,i),2);
+                Pf_i(n_f) = cfan_0 + cfan_1*m_z_power(16,i);
             end
         end
         Pf_total(i) = sum(Pf_i);
@@ -191,12 +192,12 @@ cvx_begin
         %%  boiler
         
         Ppre_total(i) = sum(Prh_power(:,i));
-        Pcc_boiler(i) = summerboiler_result.e0 + summerboiler_result.e1*T_out(i) + summerboiler_result.e2*Ppre_total(i);
+%        Pcc_boiler(i) = summerboiler_result.e0 + summerboiler_result.e1*T_out(i) + summerboiler_result.e2*Ppre_total(i);
 
-        J_gas_i = c_ng(i) * Pcc_boiler(i) * ST/60;
+%        J_gas_i = c_ng(i) * Pcc_boiler(i) * ST/60;
 
         % Total cost
-        J(i) = J_e_i + J_gas_i;
+        J(i) = J_e_i;
 
     end
 
@@ -206,7 +207,7 @@ cvx_begin
 
         for i = 1 : N_schd
             
-            m_min <= m_z(:, i); % <= m_max;
+             m_min <= m_z(:, i) <= 3*m_min;
             zeros(N_zone, 1) <= Prh(:, i); % <= Prh_max;
             
         end
@@ -224,7 +225,7 @@ cvx_begin
                 T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_z(:,i_sch-1) + a_3.*T_m_z(:,i_sch) + a_4.*T_Prh(:,i_sch) + a_5.*T_Q_int(:,i_sch);
             end
 
-            T_low <= T_z(:, i_sch) <= T_hgh;
+            T_low <= T_z(:, i_sch); % <= T_hgh;
 
         end
 
