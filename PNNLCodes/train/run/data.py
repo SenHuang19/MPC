@@ -52,14 +52,18 @@ device['chiller']=result['90.1-2010 WATERCOOLED  CENTRIFUGAL CHILLER 0 736TONS 0
 i=0
 min=[]
 for zone in zones:
+    if i>4 and i<10:
+	    mut=10
+    else:
+	    mut=1	
     csp['z'+str(i)]=result[str(zone).upper()+':Zone Thermostat Cooling Setpoint Temperature [C](Each Call)']
             
     q['z'+str(i)]=result[str(zone).upper()+':Zone Air Heat Balance Internal Convective Heat Gain Rate [W](TimeStep)']
     hsp['z'+str(i)]=result[str(zone).upper()+':Zone Thermostat Heating Setpoint Temperature [C](Each Call)']
     zt['z'+str(i)]=result[str(zone).upper()+':Zone Mean Air Temperature [C](TimeStep)']    
-    m['z'+str(i)]=result['NODE '+str(termoutlet[i])+':System Node Mass Flow Rate [kg/s](TimeStep)']
+    m['z'+str(i)]=result['NODE '+str(termoutlet[i])+':System Node Mass Flow Rate [kg/s](TimeStep)']/mut
     min.append(m['z'+str(i)].min())
-    rh['z'+str(i)]=(result['NODE '+str(rhtinlet[i])+':System Node Temperature [C](TimeStep)']-result['NODE '+str(rhtoutlet[i])+':System Node Temperature [C](TimeStep)'])*result['NODE '+str(rhtoutlet[i])+':System Node Mass Flow Rate [kg/s](TimeStep)']*4200
+    rh['z'+str(i)]=(result['NODE '+str(rhtinlet[i])+':System Node Temperature [C](TimeStep)']-result['NODE '+str(rhtoutlet[i])+':System Node Temperature [C](TimeStep)'])*result['NODE '+str(rhtoutlet[i])+':System Node Mass Flow Rate [kg/s](TimeStep)']*4200/mut
     i=i+1    
       
 print min 

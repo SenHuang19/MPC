@@ -100,7 +100,7 @@ while 1:
               else:
                    tset=22              
               for i in range(16):
-                   mssg = mssg + ' ' + str(20)+ ' ' + str(22+2*math.sin((index+i/16.*1440)/1440.*2*3.14))
+                   mssg = mssg + ' ' + str(20)+ ' ' + str(22+2*math.sin((index+0*i/16.*1440)/1440.*2*3.14))
               mssg = mssg+ ' ' + str(0.1) + ' ' + str(0.1)+ ' ' +str(0.1)+ ' ' +str(0.1)+ ' ' +str(0)+ ' ' +str(0)
 
               mssg =  mssg+'\n'

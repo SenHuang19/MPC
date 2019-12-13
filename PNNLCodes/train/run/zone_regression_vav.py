@@ -23,7 +23,7 @@ from sklearn.metrics import mean_squared_error
 
 R2=[]
 me=[]
-
+a2s=[]
 for ii in range(16):
 
     regr = linear_model.LinearRegression(fit_intercept = True)
@@ -146,6 +146,7 @@ for ii in range(16):
 #    plt.show()
     temp=[r2_score(zt[z_no],y_pred3),r2_score(zt[z_no],y_pred1)]
     R2.append(temp)
+    a2s.append(a2)
     temp=[mean_squared_error(zt[z_no],y_pred3),mean_squared_error(zt[z_no],y_pred1)]
     me.append(temp)
     coefs=collections.OrderedDict()
@@ -194,6 +195,16 @@ f.writelines(str(1440.*5/len(xx))+',')
 for ii in range(15):
      f.writelines(str(me[ii][0])+',')
 f.writelines(str(me[ii][0])+'\n')
+
+f.close()
+f=open('a2.csv','a')
+
+
+f.writelines(str(1440.*5/len(xx))+',')
+
+for ii in range(15):
+     f.writelines(str(a2s[ii])+',')
+f.writelines(str(a2s[ii])+'\n')
 
 f.close()
 

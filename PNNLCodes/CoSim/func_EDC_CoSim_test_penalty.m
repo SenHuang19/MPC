@@ -9,9 +9,9 @@ N = ST/DT;
 num_zone = 16; % number of zones
 
 %% load the coefficients a_0 ... a_5
-load(strcat('paras/coeff/', sample_time, '/zones.mat'));
-load(strcat('paras/coeff/', sample_time, '/chiller.mat'));
-load(strcat('paras/coeff/', sample_time, '/fans.mat'));
+load(strcat('paras/coeffsa/', sample_time, '/zones.mat'));
+load(strcat('paras/coeffsa/', sample_time, '/chiller.mat'));
+load(strcat('paras/coeffsa/', sample_time, '/fans.mat'));
 
 a_0 = zeros(num_zone, 1);
 a_1 = zeros(num_zone, 1);
@@ -97,7 +97,7 @@ N_AHU = 4;
 % load(strcat('paras/chiller/', sample_time, '/chiller.mat'));
 % load(strcat('paras/fan/fan.mat'));
 
-load (strcat('paras/limits.mat'));
+load (strcat('limit.mat'));
 % m_min = Params_office_sizing(:,2);
 % m_min(6:10) = m_min(6:10)/10;
 % m_max = Params_office_sizing(:,1);
@@ -119,16 +119,19 @@ Zoneparam.T_approx = 22*ones(N_AHU,1); % approximation of room temperature
 
 alpha_oa = 0.1;
 Tmix_vec = alpha_oa*T_out + (1-alpha_oa)*Zoneparam.T_approx(1); % same OA ratio and T_approx for all zones
-
+cvx_solver_settings('dumpfile', 'test');
 cvx_begin
     cvx_precision low
+    
+
     % Decision variables and expressions
     
     variable m_z(N_zone, N_schd)
     variable Prh(N_zone, N_schd)
     variable T_z(N_zone, N_schd*N)
     variable T_u(N_zone, N_schd*N)
-
+    variable T_l(N_zone, N_schd*N)
+    
     expression Pcc_i(N_AHU)
     expression Pcc_total(N_schd)
     
@@ -141,7 +144,7 @@ cvx_begin
     expression J(N_schd)
     
     m_z_power = m_z;
-%     m_z_power(6:10,:) = m_z_power(6:10,:)* 10; % mid-floor
+    m_z_power(6:10,:) = m_z_power(6:10,:)* 10; % mid-floor
     
 %     Prh_power = Prh;
 %     Prh_power(6:10,:) = Prh_power(6:10,:) * 10; % mid-floor
@@ -202,13 +205,13 @@ cvx_begin
 
     end
 
-    minimize (sum(J) + 1E06*sum(sum(T_u)))
+    minimize (sum(J) + 1E03*sum(sum(T_u)) + 1E03*sum(sum(T_l)))
 
     subject to
 
         for i = 1 : N_schd
             
-            m_min <= m_z(:, i);% <= 3*m_min;
+            m_min <= m_z(:, i) <= 3*m_min;
             zeros(N_zone, 1) <= Prh(:, i); % <= Prh_max;
             
         end
@@ -226,9 +229,11 @@ cvx_begin
                 T_z(:, i_sch) == a_0 + a_1*T_out(i_sch) + a_2.*T_z(:,i_sch-1) + a_3.*T_m_z(:,i_sch) + a_4.*T_Prh(:,i_sch) + a_5.*T_Q_int(:,i_sch);
             end
 
-            T_low <= T_z(:, i_sch); % <= T_hgh;
+%             T_low <= T_z(:, i_sch); % <= T_hgh;
             
             for j = 1 : N_zone
+                
+                pos(20-T_z(j, i_sch)) <= T_l(j, i_sch);
                 
                 pos(T_z(j, i_sch) - 24) <= T_u(j, i_sch);
                 

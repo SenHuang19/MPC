@@ -1,12 +1,26 @@
 *** BCVTB client log file.
 *************************.
-Writing to socket at time = 8.724000e+04
+Writing to socket at time = 8.994000e+04
 Assembling buffer.
 Write to socket with fd = 176
-Buffer        = 2 0 17 0 0 8.724000000000000e+04 2.342333333333333e+01 2.199998090200367e+01 2.185259708327796e+01 2.199998098022103e+01 2.199997983911865e+01 2.199999880296970e+01 2.199998456032331e+01 2.174490487183354e+01 2.199998462427042e+01 2.199998377504891e+01 2.199999843269002e+01 2.199999292364615e+01 2.199999261820300e+01 2.199999285514520e+01 2.199999331639732e+01 2.199999875426336e+01 2.199999726526644e+01 
+Buffer        = 2 0 17 0 0 8.994000000000000e+04 2.349833333333333e+01 2.199998602461661e+01 2.183002338254623e+01 2.199998577008762e+01 2.199998690464793e+01 2.200000006518896e+01 2.199998820775211e+01 2.173300105895454e+01 2.199998795668120e+01 2.199998904865373e+01 2.199999963740365e+01 2.199999493648368e+01 2.199999443927558e+01 2.199999485593843e+01 2.199999551921544e+01 2.199999992019450e+01 2.199999876143193e+01 
 
 Wrote 408 characters to socket.
 Reading from socket.
-In readbufferfromsocket: Read 167 chars, maximum is 22458.
-Disassembled buffer.
-Finished exchanging data with socket: simTimRea=8.718000e+04, flag=0.
+In readbufferfromsocket: Read 0 chars, maximum is 22458.
+Error reading: WSAGetLastError = 0
+Finished exchanging data with socket: simTimRea=0.000000e+00, flag=-1.
+Assembling buffer.
+Write to socket with fd = 176
+Buffer        = 2 -20 
+
+Wrote 7 characters to socket.
+sendclientmessage wrote flag -20, return value = 7.
+In readbufferfromsocket: Read -1 chars, maximum is 22458.
+Assembling buffer.
+Write to socket with fd = 176
+Buffer        = 2 -1 
+
+Error writing to socket: Return value = -1.
+Error writing to socket: WSAGetLastError = 10053
+sendclientmessage wrote flag -1, return value = -1.
