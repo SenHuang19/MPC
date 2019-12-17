@@ -120,6 +120,7 @@ Zoneparam.T_approx = 22*ones(N_AHU,1); % approximation of room temperature
 alpha_oa = 0.1;
 Tmix_vec = alpha_oa*T_out + (1-alpha_oa)*Zoneparam.T_approx(1); % same OA ratio and T_approx for all zones
 cvx_solver_settings('dumpfile', 'test');
+tic
 cvx_begin
     cvx_precision low
     
@@ -242,6 +243,7 @@ cvx_begin
         end
 
 cvx_end
+toc
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
